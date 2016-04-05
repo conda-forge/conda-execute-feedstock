@@ -73,6 +73,11 @@ Linux: [![Circle CI](https://circleci.com/gh/conda-forge/conda-execute-feedstock
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/conda-execute-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/conda-execute-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/conda-execute-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/conda-execute-feedstock/branch/master)
 
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/conda-execute/badges/version.svg)](https://anaconda.org/conda-forge/conda-execute)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/conda-execute/badges/downloads.svg)](https://anaconda.org/conda-forge/conda-execute)
+
 
 Updating conda-execute-feedstock
 ================================
