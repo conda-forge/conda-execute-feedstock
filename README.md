@@ -5,7 +5,7 @@ Home: https://github.com/pelson/conda-execute
 
 Package license: BSD
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Execute scripts in isolated temporary environments.
 
