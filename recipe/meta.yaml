@@ -7,10 +7,10 @@ package:
 source:
   fn: conda-execute-{{ version }}.tar.gz
   url: https://github.com/pelson/conda-execute/archive/v{{ version }}.tar.gz
-  sha256: 48e6e4d1590dff6870be22f7e53d2f7cd40f0b9878da15a32c568affed64f376
+  sha256: cecbb46a6abe45e3a9716b8925561d887966dd933f77c85e7d098c67481e1da1
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
