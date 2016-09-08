@@ -1,4 +1,4 @@
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 
 package:
   name: conda-execute
@@ -7,7 +7,7 @@ package:
 source:
   fn: conda-execute-{{ version }}.tar.gz
   url: https://github.com/pelson/conda-execute/archive/v{{ version }}.tar.gz
-  sha256: cecbb46a6abe45e3a9716b8925561d887966dd933f77c85e7d098c67481e1da1
+  sha256: 28fca79cb61d4e54d121aebb09ec4aac7098b94a455333aeef1278e99571de67
 
 build:
   number: 1
