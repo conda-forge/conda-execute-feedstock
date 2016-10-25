@@ -14,23 +14,24 @@ Summary: Execute scripts in isolated temporary environments.
 Installing conda-execute
 ========================
 
-Installing conda-execute from the conda-forge channel can be achieved by adding conda-forge to your channels with:
+Installing `conda-execute` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 ```
 
-Once the conda-forge channel has been enabled, conda-execute can be installed with:
+Once the `conda-forge` channel has been enabled, `conda-execute` can be installed with:
 
 ```
 conda install conda-execute
 ```
 
-It is possible to list all of the versions of conda-execute available on your platform with:
+It is possible to list all of the versions of `conda-execute` available on your platform with:
 
 ```
 conda search conda-execute --channel conda-forge
 ```
+
 
 
 About conda-forge
