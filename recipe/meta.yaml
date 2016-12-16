@@ -1,4 +1,4 @@
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: conda-execute
@@ -7,10 +7,10 @@ package:
 source:
   fn: conda-execute-{{ version }}.tar.gz
   url: https://github.com/pelson/conda-execute/archive/v{{ version }}.tar.gz
-  sha256: 28fca79cb61d4e54d121aebb09ec4aac7098b94a455333aeef1278e99571de67
+  sha256: b5e589fec98d91311128acf5413ed48c21db413b046f7f8b3cf32a3a0bac9b76
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
