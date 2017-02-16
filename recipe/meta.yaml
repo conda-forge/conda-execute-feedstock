@@ -10,7 +10,7 @@ source:
   sha256: b5e589fec98d91311128acf5413ed48c21db413b046f7f8b3cf32a3a0bac9b76
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
   entry_points:
     - conda-execute = conda_execute.execute:main
