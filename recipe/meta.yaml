@@ -38,6 +38,7 @@ about:
   home: https://github.com/pelson/conda-execute
   license: BSD 3-Clause
   license_family: BSD
+  license_file: LICENSE
   summary: 'Execute scripts in isolated temporary environments.'
 
 extra:
