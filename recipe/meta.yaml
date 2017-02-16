@@ -10,8 +10,11 @@ source:
   sha256: b5e589fec98d91311128acf5413ed48c21db413b046f7f8b3cf32a3a0bac9b76
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
+  entry_points:
+    - conda-execute = conda_execute.execute:main
+    - conda-tmpenv = conda_execute.tmpenv:main
 
 requirements:
   build:
@@ -20,7 +23,6 @@ requirements:
 
   run:
     - python
-    - setuptools
     - pyyaml
     - conda >=4.1.0
     - psutil
@@ -35,6 +37,8 @@ test:
 about:
   home: https://github.com/pelson/conda-execute
   license: BSD 3-Clause
+  license_family: BSD
+  license_file: LICENSE
   summary: 'Execute scripts in isolated temporary environments.'
 
 extra:
