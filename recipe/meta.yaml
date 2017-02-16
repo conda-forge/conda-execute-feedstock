@@ -23,7 +23,6 @@ requirements:
 
   run:
     - python
-    - setuptools
     - pyyaml
     - conda >=4.1.0
     - psutil
