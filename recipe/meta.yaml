@@ -1,4 +1,4 @@
-{% set version = "0.8.0" %}
+{% set version = "0.8.1" %}
 
 package:
   name: conda-execute
@@ -7,7 +7,7 @@ package:
 source:
   fn: conda-execute-{{ version }}.tar.gz
   url: https://github.com/pelson/conda-execute/archive/v{{ version }}.tar.gz
-  sha256: b5e589fec98d91311128acf5413ed48c21db413b046f7f8b3cf32a3a0bac9b76
+  sha256: c3182c0736fbfed07bc7fdd65e0331e62a440a3158b56cd8d0c5f249fd780489
 
 build:
   number: 1
@@ -24,7 +24,7 @@ requirements:
   run:
     - python
     - pyyaml
-    - conda >=4.1.0
+    - conda >=4.2.0
     - psutil
 
 test:
