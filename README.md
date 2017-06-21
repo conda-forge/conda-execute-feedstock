@@ -1,7 +1,7 @@
 About conda-execute
 ===================
 
-Home: https://github.com/pelson/conda-execute
+Home: https://github.com/conda-tools/conda-execute
 
 Package license: BSD 3-Clause
 
