@@ -6,11 +6,11 @@ package:
 
 source:
   fn: conda-execute-{{ version }}.tar.gz
-  url: https://github.com/pelson/conda-execute/archive/v{{ version }}.tar.gz
+  url: https://github.com/conda-tools/conda-execute/archive/v{{ version }}.tar.gz
   sha256: c3182c0736fbfed07bc7fdd65e0331e62a440a3158b56cd8d0c5f249fd780489
 
 build:
-  number: 1
+  number: 2
   script: python setup.py install --single-version-externally-managed --record record.txt
   entry_points:
     - conda-execute = conda_execute.execute:main
@@ -35,7 +35,7 @@ test:
     - conda tmpenv --help
 
 about:
-  home: https://github.com/pelson/conda-execute
+  home: https://github.com/conda-tools/conda-execute
   license: BSD 3-Clause
   license_family: BSD
   license_file: LICENSE
@@ -43,4 +43,5 @@ about:
 
 extra:
   recipe-maintainers:
+    - jakirkham
     - pelson
