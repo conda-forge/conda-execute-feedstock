@@ -1,4 +1,4 @@
-{% set version = "0.8.1" %}
+{% set version = "0.8.2" %}
 
 package:
   name: conda-execute
@@ -7,10 +7,10 @@ package:
 source:
   fn: conda-execute-{{ version }}.tar.gz
   url: https://github.com/conda-tools/conda-execute/archive/v{{ version }}.tar.gz
-  sha256: c3182c0736fbfed07bc7fdd65e0331e62a440a3158b56cd8d0c5f249fd780489
+  sha256: 21388f4fd0e4e604b95231f207481ece08ba25cf76c6af63a94dcb63716c3c47
 
 build:
-  number: 2
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
   entry_points:
     - conda-execute = conda_execute.execute:main
@@ -45,3 +45,4 @@ extra:
   recipe-maintainers:
     - jakirkham
     - pelson
+    - LukeC92
