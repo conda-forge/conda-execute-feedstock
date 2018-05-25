@@ -1,4 +1,4 @@
-{% set version = "0.8.2" %}
+{% set version = "0.9.0" %}
 
 package:
   name: conda-execute
@@ -7,12 +7,12 @@ package:
 source:
   fn: conda-execute-{{ version }}.tar.gz
   url: https://github.com/conda-tools/conda-execute/archive/v{{ version }}.tar.gz
-  sha256: 21388f4fd0e4e604b95231f207481ece08ba25cf76c6af63a94dcb63716c3c47
+  sha256: 83a721d0387c76ead7913c5b170cc64c67a67a6ab32b747d8ae87805a5bab950
 
 build:
   noarch: python
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python -m pip install --no-deps --ignore-installed .
   entry_points:
     - conda-execute = conda_execute.execute:main
     - conda-tmpenv = conda_execute.tmpenv:main
@@ -20,7 +20,7 @@ build:
 requirements:
   build:
     - python
-    - setuptools
+    - pip
 
   run:
     - python
