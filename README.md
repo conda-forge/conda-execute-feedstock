@@ -14,12 +14,15 @@ Summary: Execute scripts in isolated temporary environments.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/conda-execute-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/conda-execute-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/conda-execute-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/conda-execute-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/conda-execute/badges/version.svg)](https://anaconda.org/conda-forge/conda-execute)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/conda-execute/badges/downloads.svg)](https://anaconda.org/conda-forge/conda-execute)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-conda--execute-green.svg)](https://anaconda.org/conda-forge/conda-execute) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/conda-execute.svg)](https://anaconda.org/conda-forge/conda-execute) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/conda-execute.svg)](https://anaconda.org/conda-forge/conda-execute) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/conda-execute.svg)](https://anaconda.org/conda-forge/conda-execute) |
 
 Installing conda-execute
 ========================
